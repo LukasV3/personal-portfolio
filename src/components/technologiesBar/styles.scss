@@ -1,0 +1,22 @@
+.technolgies-bar {
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+  padding: 0.75rem 0;
+
+  &__container {
+    max-width: 70rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+
+    & img {
+      height: 2.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .technolgies-bar {
+    display: none;
+  }
+}

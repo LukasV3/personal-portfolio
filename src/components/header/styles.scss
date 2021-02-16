@@ -1,0 +1,60 @@
+.header {
+  background-color: #ddd;
+  color: #fff;
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1413&q=80);
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 60vh;
+    max-width: 35rem;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    line-height: 1.75rem;
+    font-weight: 300;
+  }
+}
+
+.nav {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__logo {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
