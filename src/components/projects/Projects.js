@@ -57,6 +57,29 @@ const Projects = () => {
           <div className="project--col-1">
             <h3 className="project__name">Cryptogic Landing Page</h3>
             <div className="project__image"></div>
+            <div className="project__buttons">
+              <button className="project__button">
+                <i className="fas fa-desktop"></i> Live Preview
+              </button>
+              <button className="project__button">
+                <i className="fas fa-code"></i> Code
+              </button>
+            </div>
+            <h4 className="project__title">Technologies Used</h4>
+            <div className="project__description--grid">
+              <p>
+                <i className="fas fa-circle"></i> React
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Redux
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> CSS3
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Sass
+              </p>
+            </div>
           </div>
           <div className="project--col-2">
             <h4 className="project__title">Overview</h4>

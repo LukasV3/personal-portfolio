@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 3rem;
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    max-width: 30rem;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+}
