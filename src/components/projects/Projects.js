@@ -14,7 +14,10 @@ const Projects = () => {
               <button className="project__button">
                 <i className="fas fa-desktop"></i> Live Preview
               </button>
-              <button className="project__button">
+              <button
+                onClick={() => window.open("https://github.com/LukasV3/moviebase-app")}
+                className="project__button"
+              >
                 <i className="fas fa-code"></i> Code
               </button>
             </div>
@@ -61,7 +64,12 @@ const Projects = () => {
               <button className="project__button">
                 <i className="fas fa-desktop"></i> Live Preview
               </button>
-              <button className="project__button">
+              <button
+                onClick={() =>
+                  window.open("https://github.com/LukasV3/cryptogic-landing-page")
+                }
+                className="project__button"
+              >
                 <i className="fas fa-code"></i> Code
               </button>
             </div>

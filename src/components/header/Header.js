@@ -20,18 +20,29 @@ const Header = () => {
       <div className="header__container">
         <h1 className="header__title">Front-end Developer</h1>
         <h4 className="header__text">
-          ri oregn lnsoid lrngi slfnirg rig or rltyj tyj etyj etyjj jy jy ys sdid ngs dg
-          gsrg r sg gher tkewr sgrg srg rgs rg sgr
+          Hi my name is Lukas and I am freelance front-end developer whose also
+          comfortable working on the backend
         </h4>
         <div className="admin-buttons">
-          <button className="admin-button">
+          <button
+            onClick={() => window.open("https://github.com/LukasV3")}
+            className="admin-button"
+          >
             <i className="fab fa-github-square"></i> Github
           </button>
           <button className="admin-button">
             <i className="fab fa-linkedin"></i> LinkedIn
           </button>
-          <button className="admin-button">
-            <i className="fas fa-envelope-square"></i> Email
+          <button
+            onClick={() =>
+              window.open(
+                "mailto:lukasvolk0@gmail.com?subject=Subject&body=Body%20goes%20here"
+              )
+            }
+            className="admin-button"
+          >
+            <i className="fas fa-envelope-square"></i>
+            Email
           </button>
           <button className="admin-button">
             <i className="far fa-newspaper"></i> Resume
