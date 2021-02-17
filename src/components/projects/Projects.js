@@ -44,9 +44,9 @@ const Projects = () => {
             <h4 className="project__title">Overview</h4>
             <p className="project__description">
               Moviebase is an app that acts as a base for keeping track of all the films
-              you plan to watch and finally see. It consumes the movie database API and
-              allows users to search through a myraiad of different films that they can
-              then mark accordingly.
+              you plan to watch and those you finally see. It consumes the movie database
+              API and allows users to search through a myraiad of different films that
+              they can then mark accordingly.
             </p>
             <h4 className="project__title">Project Difficulties</h4>
             <p className="project__description">
