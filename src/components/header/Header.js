@@ -23,6 +23,20 @@ const Header = () => {
           ri oregn lnsoid lrngi slfnirg rig or rltyj tyj etyj etyjj jy jy ys sdid ngs dg
           gsrg r sg gher tkewr sgrg srg rgs rg sgr
         </h4>
+        <div className="admin-buttons">
+          <button className="admin-button">
+            <i className="fab fa-github-square"></i> Github
+          </button>
+          <button className="admin-button">
+            <i className="fab fa-linkedin"></i> LinkedIn
+          </button>
+          <button className="admin-button">
+            <i className="fas fa-envelope-square"></i> Email
+          </button>
+          <button className="admin-button">
+            <i className="far fa-newspaper"></i> Resume
+          </button>
+        </div>
       </div>
     </header>
   );
