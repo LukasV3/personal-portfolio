@@ -60,7 +60,7 @@
       font-weight: 600;
       border: none;
       background-color: $color-primary;
-      padding: 0.75rem 1.2rem;
+      padding: 0.85rem 1.25rem;
       cursor: pointer;
       margin-bottom: 0.75rem;
       transition: 0.5s;
@@ -72,7 +72,8 @@
 
       &:hover {
         box-shadow: 0 30px 15px -10px rgba(0, 0, 0, 0.2);
-        transform: translateY(-3px);
+        transform: translateY(-5px);
+        border-radius: 20px;
         animation-duration: 1.5s;
         animation-delay: 0.3s;
         animation-timing-function: linear;
@@ -84,8 +85,7 @@
 
   &__description--grid-1 {
     display: grid;
-    grid-template-columns: max-content max-content;
-    column-gap: 4rem;
+    grid-template-columns: repeat(auto-fill, 9.5rem);
     row-gap: 1rem;
     margin-top: 1rem;
 
@@ -137,5 +137,20 @@
   &__text--highlight {
     color: $color-primary;
     font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+
+    &__name {
+      text-align: center;
+    }
+
+    &__title:first-child {
+      margin-top: 0;
+    }
   }
 }

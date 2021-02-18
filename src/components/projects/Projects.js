@@ -123,7 +123,7 @@ const Projects = () => {
               </button>
             </div>
             <h4 className="project__title">Technologies Used</h4>
-            <div className="project__description--grid">
+            <div className="project__description--grid-1">
               <p>
                 <i className="fas fa-circle"></i> React
               </p>
@@ -150,10 +150,21 @@ const Projects = () => {
               kngknflgn ksfn;gg rea;rigj r grie g erjl ee groger a/io3
             </p>
             <h4 className="project__title">Notable Features</h4>
-            <p className="project__description">
-              onreiog jreqjho ;erqjireg.ragn jrgjsfgnf djgfsfg kfdjjg dfl g dfkgnfldgf
-              kngknflgn ksfn;gg rea;rigj r grie g erjl ee groger a/io3
-            </p>
+            <div className="project__description--grid-2">
+              <p>
+                <i className="fas fa-circle"></i> To improve performance and reduce the
+                number of server calls I have implemented a
+                <span className="project__text--highlight"> debounce</span> which delays
+                API calls by 0.5s. The removal of the search button also calls for a
+                cleaner UI and more intuitive user experience.
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> The add to watchlist/watched buttons are
+                <span className="project__text--highlight"> rendered dynamically </span>
+                depending on whether the movie has already been added to either list in
+                the <span className="project__text--highlight">redux store</span>.
+              </p>
+            </div>
           </div>
         </div>
       </div>
