@@ -29,7 +29,7 @@ const Header = () => {
       <div className="header__container">
         <h1 className="header__title">Front-end Developer</h1>
         <h4 className="header__text">
-          Hi my name is Lukas and I am freelance front-end developer whose also
+          Hi my name is Lukas and I am freelance front-end developer who is also
           comfortable working on the backend
         </h4>
         <div className="admin-buttons">

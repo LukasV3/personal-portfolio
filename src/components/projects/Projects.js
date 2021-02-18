@@ -164,13 +164,28 @@ const Projects = () => {
           <div className="project--col-2">
             <h4 className="project__title">Overview</h4>
             <p className="project__description">
-              onreiog jreqjho ;erqjireg.ragn jrgjsfgnf djgfsfg kfdjjg dfl g dfkgnfldgf
-              kngknflgn ksfn;gg rea;rigj r grie g erjl ee groger a/io3
+              Cryptogic is a fictional cryptocurrency marketplace that I have built a
+              landing page for. Cryptocurrency investments are currently viewed by the
+              mainstream as being based on speculation. With the market being extremely
+              volatile and many fears growing around its potential for hacking, consumers
+              are still sticking with safer alternatives. The issue here is therefore not
+              with the technology, but rather the companies that store and trade consumer
+              data. Cryptogic falls into this market of companies and so this is why I set
+              out to build a site that juxtaposes this misconcenption.
+              {/*               
+              to build a site that was simple and
+              easy to navigate With it being a relatively new technology and many of the
+              market leaders suffering hacks potential consumers are often scared by its
+              risks which is ultimately preventing its full ascension into mainstream
+              finance. that many consumers struggle to grasp growing fears of hacking and
+              I wanted to build a site that juxtaposes this misconcenption. The site is
+              therefore simple by design and very easy to navigate to help enstil trust
+              with the user. */}
             </p>
             <h4 className="project__title">My Solution</h4>
             <p className="project__description">
-              onreiog jreqjho ;erqjireg.ragn jrgjsfgnf djgfsfg kfdjjg dfl g dfkgnfldgf
-              kngknflgn ksfn;gg rea;rigj r grie g erjl ee groger a/io3
+              My landing page uses a neutral color palette to help enstil trust with the
+              user.
             </p>
             <h4 className="project__title">Notable Features</h4>
             <div className="project__description--grid-2">
