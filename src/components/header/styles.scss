@@ -67,6 +67,12 @@
     color: #fff;
     font-size: 1.25rem;
     font-weight: 300;
+    padding: 0.5rem;
+    transition: 0.3s;
+
+    &:hover {
+      color: $color-primary;
+    }
   }
 }
 

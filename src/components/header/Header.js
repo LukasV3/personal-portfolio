@@ -2,6 +2,13 @@ import React from "react";
 import "./styles.scss";
 
 const Header = () => {
+  const scrollTo = (e) => {
+    e.preventDefault();
+    document
+      .querySelector(e.target.getAttribute("href"))
+      .scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <header className="header">
       <nav className="nav">
@@ -12,7 +19,7 @@ const Header = () => {
             </p>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="/">
+            <a onClick={scrollTo} className="nav__link" href="#projects">
               Projects
             </a>
           </li>

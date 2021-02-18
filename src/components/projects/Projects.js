@@ -1,11 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./styles.scss";
 
 const Projects = () => {
+  useEffect(() => {
+    const allProjects = document.querySelectorAll(".project");
+
+    const revealProject = function (entries, observer) {
+      const [entry] = entries;
+
+      if (!entry.isIntersecting) return;
+
+      entry.target.classList.remove("project--hidden");
+      observer.unobserve(entry.target);
+    };
+
+    const projectObserver = new IntersectionObserver(revealProject, {
+      root: null,
+      threshold: 0.15,
+    });
+
+    allProjects.forEach(function (project) {
+      projectObserver.observe(project);
+      project.classList.add("project--hidden");
+    });
+  });
+
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <h3 className="projects__title">Projects</h3>
       <div className="projects__container">
         <div className="project">
