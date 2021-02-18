@@ -16,6 +16,10 @@
     border: none;
     background: none;
     color: #fff;
+
+    &:hover {
+      background-color: $color-primary;
+    }
   }
 
   & i {

@@ -57,9 +57,12 @@ const Projects = () => {
             <h4 className="project__title">Overview</h4>
             <p className="project__description">
               Moviebase is an app that acts as a base for keeping track of all the films
-              you plan to watch and those you finally see. It consumes the movie database
-              API and allows users to search through a myraiad of different films that
-              they can then mark accordingly.
+              you plan to watch and those you finally see. It
+              <span className="project__text--highlight">
+                consumes the movie database API
+              </span>
+              and allows users to search through a myraiad of different films that they
+              can then mark accordingly.
             </p>
             <h4 className="project__title">Project Difficulties</h4>
             <p className="project__description">
@@ -75,18 +78,16 @@ const Projects = () => {
             <div className="project__description--grid-2">
               <p>
                 <i className="fas fa-circle"></i> To improve performance and reduce the
-                number of server calls I have implemented a debounce which delays API
-                calls by 0.5s. The removal of the search button also calls for a cleaner
-                UI and more intuitive user experience.
+                number of server calls I have implemented a
+                <span className="project__text--highlight"> debounce</span> which delays
+                API calls by 0.5s. The removal of the search button also calls for a
+                cleaner UI and more intuitive user experience.
               </p>
               <p>
                 <i className="fas fa-circle"></i> The add to watchlist/watched buttons are
-                rendered dynamically depending on whether the movie has already been added
-                to either list in the redux store.
-              </p>
-
-              <p>
-                <i className="fas fa-circle"></i> Sass
+                <span className="project__text--highlight"> rendered dynamically </span>
+                depending on whether the movie has already been added to either list in
+                the <span className="project__text--highlight">redux store</span>.
               </p>
             </div>
           </div>
