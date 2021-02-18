@@ -8,6 +8,7 @@
   padding: 5rem 3rem;
   background-color: $color-primary;
   color: #fff;
+  text-align: center;
 
   &__title {
     font-size: 2.2rem;
@@ -16,7 +17,6 @@
 
   &__text {
     max-width: 30rem;
-    text-align: center;
     line-height: 1.5rem;
     margin-bottom: 2rem;
   }
