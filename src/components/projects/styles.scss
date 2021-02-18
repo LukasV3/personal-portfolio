@@ -35,10 +35,18 @@
   }
 
   &__image {
-    border: 1px solid black;
+    // border: 1px solid black;
     height: 12.5rem;
     width: 90%;
     margin-bottom: 1.5rem;
+    // background-image: url("../../assets/img/moviebase-watchlist.png");
+    // background-position: center;
+    // background-size: cover;
+
+    & img {
+      width: 100%;
+      display: block;
+    }
   }
 
   &__buttons {

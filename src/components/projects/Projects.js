@@ -1,4 +1,6 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 import "./styles.scss";
 
 const Projects = () => {
@@ -9,7 +11,18 @@ const Projects = () => {
         <div className="project">
           <div className="project--col-1">
             <h3 className="project__name">Moviebase App</h3>
-            <div className="project__image"></div>
+            <div className="project__image">
+              <Carousel
+                showArrows={true}
+                showThumbs={false}
+                infiniteLoop={true}
+                autoPlay={true}
+              >
+                <img src="../img/moviebase-watchlist.png" alt="app" />
+                <img src="../img/moviebase-search.png" alt="app" />
+                <img src="../img/moviebase-modal.png" alt="app" />
+              </Carousel>
+            </div>
             <div className="project__buttons">
               <button className="project__button">
                 <i className="fas fa-desktop"></i> Live Preview
@@ -82,7 +95,19 @@ const Projects = () => {
         <div className="project">
           <div className="project--col-1">
             <h3 className="project__name">Cryptogic Landing Page</h3>
-            <div className="project__image"></div>
+            <div className="project__image">
+              <Carousel
+                showArrows={true}
+                showThumbs={false}
+                infiniteLoop={true}
+                autoPlay={true}
+              >
+                <img src="../img/cryptogic-header.png" alt="app" />
+                <img src="../img/cryptogic-features.png" alt="app" />
+                <img src="../img/cryptogic-testimonials.png" alt="app" />
+                <img src="../img/cryptogic-footer.png" alt="app" />
+              </Carousel>
+            </div>
             <div className="project__buttons">
               <button className="project__button">
                 <i className="fas fa-desktop"></i> Live Preview
