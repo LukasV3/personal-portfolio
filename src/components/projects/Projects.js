@@ -259,7 +259,7 @@ const Projects = () => {
             <h4 className="project__title">Technologies Used</h4>
             <div className="project__description--grid-1">
               <p>
-                <i className="fas fa-circle"></i> HTML
+                <i className="fas fa-circle"></i> HTML5
               </p>
               <p>
                 <i className="fas fa-circle"></i> CSS3
@@ -268,7 +268,7 @@ const Projects = () => {
                 <i className="fas fa-circle"></i> Sass
               </p>
               <p>
-                <i className="fas fa-circle"></i> ReactJS
+                <i className="fas fa-circle"></i> React
               </p>
             </div>
           </div>
