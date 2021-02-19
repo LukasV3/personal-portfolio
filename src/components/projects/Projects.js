@@ -61,19 +61,30 @@ const Projects = () => {
             <h4 className="project__title">Technologies Used</h4>
             <div className="project__description--grid-1">
               <p>
-                <i className="fas fa-circle"></i> React
+                <i className="fas fa-circle"></i> HTML5
               </p>
               <p>
-                <i className="fas fa-circle"></i> React Router
+                <i className="fas fa-circle"></i> Sass
               </p>
               <p>
-                <i className="fas fa-circle"></i> Redux
+                <i className="fas fa-circle"></i> CSS3
               </p>
               <p>
                 <i className="fas fa-circle"></i> Redux Thunk
               </p>
               <p>
-                <i className="fas fa-circle"></i> Sass
+                <i className="fas fa-circle"></i> React
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> React Router
+              </p>
+
+              <p>
+                <i className="fas fa-circle"></i> Redux
+              </p>
+
+              <p>
+                <i className="fas fa-circle"></i> Axios
               </p>
             </div>
           </div>
@@ -82,36 +93,43 @@ const Projects = () => {
             <p className="project__description">
               Moviebase is an app that acts as a base for keeping track of all the films
               you plan to watch and those you finally see. It
-              <span className="project__text--highlight">
-                consumes the movie database API
-              </span>
+              <span className="project__text--highlight"> consumes the TMDb API </span>
               and allows users to search through a myraiad of different films that they
               can then mark accordingly.
             </p>
             <h4 className="project__title">Project Difficulties</h4>
             <p className="project__description">
-              At the start of this project I made the mistake of.. When I was building out
-              the app in the beginning making it responsive was somewhat of an
-              afterthought. As a result when the time came to make it mobile friendly it
-              became extremely challanging, as many of the styles and much of the logic
-              was solely built with larger viewports in mind.
+              When I was building out the app in the beginning making it responsive was
+              somewhat of an afterthought. As a result when the time came to make it
+              mobile friendly it became extremely challanging, as many of the styles and
+              much of the logic was solely built with larger viewports in mind.
             </p>
             <h4 className="project__title">What I Learned</h4>
-            <p className="project__description">Going forward I now always try to code</p>
+            <p className="project__description">
+              Going forward I now always try to code using a mobile first approach. I not
+              only save a lot of time but also found that its much easier to add more
+              features to my screen as the total space increases rather than do the
+              opposite.
+            </p>
             <h4 className="project__title">Features</h4>
             <div className="project__description--grid-2">
               <p>
                 <i className="fas fa-circle"></i> To improve performance and reduce the
                 number of server calls I have implemented a
                 <span className="project__text--highlight"> debounce</span> which delays
-                API calls by 0.5s. The removal of the search button also calls for a
-                cleaner UI and more intuitive user experience.
+                API calls by 0.5s.
               </p>
               <p>
                 <i className="fas fa-circle"></i> The add to watchlist/watched buttons are
                 <span className="project__text--highlight"> rendered dynamically </span>
-                depending on whether the movie has already been added to either list in
+                depending on whether the movie has already been added to either array in
                 the <span className="project__text--highlight">redux store</span>.
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Made use of
+                <span className="project__text--highlight"> React Portal </span>to render
+                modal which can be accessed by clicking on a film on either the watchlist
+                or watched pages (as shown in image 3).
               </p>
             </div>
           </div>
@@ -151,16 +169,16 @@ const Projects = () => {
             <h4 className="project__title">Technologies Used</h4>
             <div className="project__description--grid-1">
               <p>
-                <i className="fas fa-circle"></i> React
+                <i className="fas fa-circle"></i> HTML5
               </p>
               <p>
-                <i className="fas fa-circle"></i> Redux
+                <i className="fas fa-circle"></i> Sass
               </p>
               <p>
                 <i className="fas fa-circle"></i> CSS3
               </p>
               <p>
-                <i className="fas fa-circle"></i> Sass
+                <i className="fas fa-circle"></i> React
               </p>
             </div>
           </div>
@@ -168,13 +186,11 @@ const Projects = () => {
             <h4 className="project__title">Overview</h4>
             <p className="project__description">
               Cryptogic is a fictional cryptocurrency marketplace that I have built a
-              landing page for. Cryptocurrency investments are currently viewed by the
-              mainstream as being based on speculation. With the market being extremely
-              volatile and many fears growing around its potential for hacking, consumers
-              are still sticking with safer alternatives. The issue here is therefore not
-              with the technology, but rather the companies that store and trade consumer
-              data. Cryptogic falls into this market of companies and so this is why I set
-              out to build a site that juxtaposes this misconcenption.
+              landing page for. With the market being extremely volatile and many fears
+              growing around its potential for hacking, consumers on the whole are still
+              sticking with safer alternatives. My site is built to change this.
+              {/* Cryptocurrency investments are currently viewed by the
+              mainstream as being based on speculation.  */}
               {/*               
               to build a site that was simple and
               easy to navigate With it being a relatively new technology and many of the
@@ -187,23 +203,22 @@ const Projects = () => {
             </p>
             <h4 className="project__title">My Solution</h4>
             <p className="project__description">
-              My landing page uses a neutral color palette to help enstil trust with the
-              user.
+              The site I've built is simple by design and uses a neutral color palette to
+              help enstil trust with the user. The page is easy to navigate...
             </p>
             <h4 className="project__title">Notable Features</h4>
             <div className="project__description--grid-2">
               <p>
-                <i className="fas fa-circle"></i> To improve performance and reduce the
-                number of server calls I have implemented a
-                <span className="project__text--highlight"> debounce</span> which delays
-                API calls by 0.5s. The removal of the search button also calls for a
-                cleaner UI and more intuitive user experience.
+                <i className="fas fa-circle"></i> I made use of the
+                <span className="project__text--highlight">
+                  Intersecting Observer API
+                </span>
+                to render sections of the site gradually.
               </p>
               <p>
-                <i className="fas fa-circle"></i> The add to watchlist/watched buttons are
-                <span className="project__text--highlight"> rendered dynamically </span>
-                depending on whether the movie has already been added to either list in
-                the <span className="project__text--highlight">redux store</span>.
+                <i className="fas fa-circle"></i> The site has a
+                <span className="project__text--highlight"> carousel </span> which can be
+                toggled to view testimonials from other users.
               </p>
             </div>
           </div>
