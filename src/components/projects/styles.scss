@@ -26,7 +26,7 @@
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  column-gap: 3rem;
   transition: opacity 1s;
 
   &--hidden {
@@ -92,6 +92,7 @@
     grid-template-columns: repeat(auto-fill, 9.5rem);
     row-gap: 1rem;
     margin-top: 1rem;
+    margin-bottom: 3rem;
 
     & p {
       position: relative;
@@ -99,9 +100,9 @@
 
       & i {
         position: absolute;
-        top: 0.3rem;
+        top: 0.35rem;
         left: -1.25rem;
-        font-size: 0.5rem;
+        font-size: 0.25rem;
       }
     }
   }
@@ -134,9 +135,9 @@
 
         & i {
           position: absolute;
-          top: 0.3rem;
+          top: 0.35rem;
           left: -1.25rem;
-          font-size: 0.5rem;
+          font-size: 0.25rem;
         }
       }
     }
