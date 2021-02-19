@@ -6,7 +6,33 @@
   justify-content: center;
   align-items: center;
   padding: 5rem 3rem;
-  background-color: $color-primary;
+  // background-color: $color-primary;
+  background: rgb(23, 140, 255);
+  background: -moz-linear-gradient(
+    162deg,
+    rgba(23, 140, 255, 1) 0%,
+    rgba(39, 148, 255, 1) 25%,
+    rgba(62, 159, 255, 1) 51%,
+    rgba(109, 183, 255, 1) 74%,
+    rgba(154, 205, 255, 1) 91%
+  );
+  background: -webkit-linear-gradient(
+    162deg,
+    rgba(23, 140, 255, 1) 0%,
+    rgba(39, 148, 255, 1) 25%,
+    rgba(62, 159, 255, 1) 51%,
+    rgba(109, 183, 255, 1) 74%,
+    rgba(154, 205, 255, 1) 91%
+  );
+  background: linear-gradient(
+    162deg,
+    rgba(23, 140, 255, 1) 0%,
+    rgba(39, 148, 255, 1) 25%,
+    rgba(62, 159, 255, 1) 51%,
+    rgba(109, 183, 255, 1) 74%,
+    rgba(154, 205, 255, 1) 91%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#178cff",endColorstr="#9acdff",GradientType=1);
   color: #fff;
   text-align: center;
 

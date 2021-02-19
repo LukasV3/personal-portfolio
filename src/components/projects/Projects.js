@@ -188,7 +188,8 @@ const Projects = () => {
               Cryptogic is a fictional cryptocurrency marketplace that I have built a
               landing page for. With the market being extremely volatile and many fears
               growing around its potential for hacking, consumers on the whole are still
-              sticking with safer alternatives. My site is built to change this.
+              sticking with safer alternatives. The goal of this site is to change this
+              misconcenption.
               {/* Cryptocurrency investments are currently viewed by the
               mainstream as being based on speculation.  */}
               {/*               
@@ -203,16 +204,18 @@ const Projects = () => {
             </p>
             <h4 className="project__title">My Solution</h4>
             <p className="project__description">
-              The site I've built is simple by design and uses a neutral color palette to
-              help enstil trust with the user. The page is easy to navigate...
+              The site I've built is simple and easy to navigate by design. The colors I
+              chose ,dark blue and green, were chosen as they are realtively positive
+              colors that lend themselves towards trust and depndendability, virtues that
+              seem to be lacking in the crypto world.
             </p>
             <h4 className="project__title">Notable Features</h4>
             <div className="project__description--grid-2">
               <p>
-                <i className="fas fa-circle"></i> I made use of the
+                <i className="fas fa-circle"></i> I made use of the{" "}
                 <span className="project__text--highlight">
                   Intersecting Observer API
-                </span>
+                </span>{" "}
                 to render sections of the site gradually.
               </p>
               <p>
@@ -236,7 +239,8 @@ const Projects = () => {
                 infiniteLoop={true}
                 autoPlay={true}
               >
-                <img src="../img/moviebase-watchlist.png" alt="app" />
+                <img src="../img/portfolio-header.png" alt="app" />
+                <img src="../img/portfolio-project.png" alt="app" />
               </Carousel>
             </div>
             <div className="project__buttons">
