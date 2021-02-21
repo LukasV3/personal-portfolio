@@ -9,7 +9,7 @@
   max-width: 25rem;
   flex-wrap: wrap;
 
-  & button {
+  & a {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +20,7 @@
     font-size: 1rem;
     border: none;
     background: none;
+    text-decoration: none;
     color: #fff;
     transition: 0.5s;
 

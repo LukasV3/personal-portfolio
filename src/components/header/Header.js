@@ -9,6 +9,11 @@ const Header = () => {
       .scrollIntoView({ behavior: "smooth" });
   };
 
+  const goToPage = (e, url) => {
+    e.preventDefault();
+    window.open(url);
+  };
+
   return (
     <header className="header">
       <nav className="nav">
@@ -33,29 +38,27 @@ const Header = () => {
           comfortable working on the backend
         </h4>
         <div className="admin-buttons">
-          <button
-            onClick={() => window.open("https://github.com/LukasV3")}
+          <a
+            onClick={(e) => goToPage(e, "https://github.com/LukasV3")}
+            href="https://github.com/LukasV3"
             className="admin-button"
           >
             <i className="fab fa-github-square"></i> Github
-          </button>
-          <button className="admin-button">
+          </a>
+          <a href="/" className="admin-button">
             <i className="fab fa-linkedin"></i> LinkedIn
-          </button>
-          <button
-            onClick={() =>
-              window.open(
-                "mailto:lukasvolk0@gmail.com?subject=Subject&body=Body%20goes%20here"
-              )
-            }
+          </a>
+          <a
+            onClick={(e) => goToPage(e, "mailto:lukasvolk0@gmail.com")}
+            href="mailto:lukasvolk0@gmail.com"
             className="admin-button"
           >
             <i className="fas fa-envelope-square"></i>
             Email
-          </button>
-          {/* <button className="admin-button">
+          </a>
+          {/* <a className="admin-button">
             <i className="far fa-newspaper"></i> CV
-          </button> */}
+          </a> */}
         </div>
       </div>
     </header>

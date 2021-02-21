@@ -27,6 +27,11 @@ const Projects = () => {
     });
   });
 
+  const goToPage = (e, url) => {
+    e.preventDefault();
+    window.open(url);
+  };
+
   return (
     <section className="projects" id="projects">
       <h3 className="projects__title">Projects</h3>
@@ -48,20 +53,22 @@ const Projects = () => {
               </Carousel>
             </div>
             <div className="project__buttons">
-              <button
-                onClick={() =>
-                  window.open("https://silly-stonebraker-764eca.netlify.app")
+              <a
+                onClick={(e) =>
+                  goToPage(e, "https://silly-stonebraker-764eca.netlify.app")
                 }
+                href="https://silly-stonebraker-764eca.netlify.app"
                 className="project__button"
               >
                 <i className="fas fa-desktop"></i> Live Preview
-              </button>
-              <button
-                onClick={() => window.open("https://github.com/LukasV3/moviebase-app")}
+              </a>
+              <a
+                onClick={(e) => goToPage(e, "https://github.com/LukasV3/moviebase-app")}
+                href="https://github.com/LukasV3/moviebase-app"
                 className="project__button"
               >
                 <i className="fas fa-code"></i> Code
-              </button>
+              </a>
             </div>
             <h4 className="project__title">Technologies Used</h4>
             <div className="project__description--grid-1">
@@ -159,20 +166,22 @@ const Projects = () => {
               </Carousel>
             </div>
             <div className="project__buttons">
-              <button
-                onClick={() => window.open("https://elastic-minsky-050ab8.netlify.app")}
+              <a
+                onClick={(e) => goToPage(e, "https://elastic-minsky-050ab8.netlify.app")}
+                href="https://elastic-minsky-050ab8.netlify.app"
                 className="project__button"
               >
                 <i className="fas fa-desktop"></i> Live Preview
-              </button>
-              <button
-                onClick={() =>
-                  window.open("https://github.com/LukasV3/cryptogic-landing-page")
+              </a>
+              <a
+                onClick={(e) =>
+                  goToPage(e, "https://github.com/LukasV3/cryptogic-landing-page")
                 }
+                href="https://github.com/LukasV3/cryptogic-landing-page"
                 className="project__button"
               >
                 <i className="fas fa-code"></i> Code
-              </button>
+              </a>
             </div>
             <h4 className="project__title">Technologies Used</h4>
             <div className="project__description--grid-1">
@@ -252,17 +261,18 @@ const Projects = () => {
               </Carousel>
             </div>
             <div className="project__buttons">
-              <button className="project__button" disabled>
+              <a href="#blank" className="project__button--disabled">
                 <i className="fas fa-desktop"></i> Live Preview
-              </button>
-              <button
-                onClick={() =>
-                  window.open("https://github.com/LukasV3/personal-portfolio")
+              </a>
+              <a
+                onClick={(e) =>
+                  goToPage(e, "https://github.com/LukasV3/personal-portfolio")
                 }
+                href="https://github.com/LukasV3/personal-portfolio"
                 className="project__button"
               >
                 <i className="fas fa-code"></i> Code
-              </button>
+              </a>
             </div>
             <h4 className="project__title">Technologies Used</h4>
             <div className="project__description--grid-1">

@@ -57,11 +57,13 @@
     flex-wrap: wrap;
     margin-bottom: 1.5rem;
 
-    & button {
+    & a {
       margin-right: 1.5rem;
       border-radius: 5px;
       color: #fff;
       font-weight: 600;
+      font-size: 0.8rem;
+      text-decoration: none;
       border: none;
       background-color: $color-primary;
       padding: 0.85rem 1.25rem;
@@ -83,13 +85,13 @@
         animation-iteration-count: infinite;
         animation-direction: alternate;
       }
-
-      &:disabled {
-        cursor: not-allowed;
-        pointer-events: none;
-        background-color: rgba($color-primary, 0.5);
-      }
     }
+  }
+
+  &__button--disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.5;
   }
 
   &__description--grid-1 {
