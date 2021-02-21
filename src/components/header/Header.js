@@ -32,10 +32,10 @@ const Header = () => {
       </nav>
 
       <div className="header__container">
-        <h1 className="header__title">Front-end Developer</h1>
+        <h1 className="header__title">Web Developer</h1>
         <h4 className="header__text">
-          Hi my name is Lukas and I am freelance front-end developer who is also
-          comfortable working on the backend
+          Hi, my name is Lukas, and I am a self-taught web developer based just outside of
+          London in Essex.
         </h4>
         <div className="admin-buttons">
           <a

@@ -106,21 +106,22 @@ const Projects = () => {
               Moviebase is an app that acts as a base for keeping track of all the films
               you plan to watch and those you finally see. It
               <span className="project__text--highlight"> consumes the TMDb API </span>
-              and allows users to search through a myraiad of different films that they
-              can then mark accordingly.
+              and allows users to search through a myriad of different films that they can
+              then mark accordingly.
             </p>
             <h4 className="project__title">Project Difficulties</h4>
             <p className="project__description">
-              When I was building out the app in the beginning making it responsive was
-              somewhat of an afterthought. As a result when the time came to make it
-              mobile friendly it became extremely challanging, as many of the styles and
-              much of the logic was solely built with larger viewports in mind.
+              When I was building out the app making it responsive was somewhat of an
+              afterthought. As a result when the time came to make it mobile friendly it
+              became very difficult, as many of the styles and much of the logic was
+              solely built with larger viewports in mind.
             </p>
             <h4 className="project__title">What I Learned</h4>
             <p className="project__description">
-              Going forward I now always try to code using a mobile first approach. I not
-              only save a lot of time but also found that its much easier to add more
-              features to my screen as the total space increases rather than do the
+              Going forward I now always try to code using a{" "}
+              <span className="project__text--highlight">mobile first approach</span>. I
+              not only save a lot of time but also find that it's easier to add more
+              features to my screen as the total space increases, rather than do the
               opposite.
             </p>
             <h4 className="project__title">Features</h4>
@@ -135,7 +136,7 @@ const Projects = () => {
                 <i className="fas fa-circle"></i> The add to watchlist/watched buttons are
                 <span className="project__text--highlight"> rendered dynamically </span>
                 depending on whether the movie has already been added to either array in
-                the <span className="project__text--highlight">redux store</span>.
+                the <span className="project__text--highlight">Redux store</span>.
               </p>
               <p>
                 <i className="fas fa-circle"></i> Made use of
@@ -206,7 +207,7 @@ const Projects = () => {
               landing page for. With the market being extremely volatile and many fears
               growing around its potential for hacking, consumers on the whole are still
               sticking with safer alternatives. The goal of this site is to change this
-              misconcenption.
+              misconception.
               {/* Cryptocurrency investments are currently viewed by the
               mainstream as being based on speculation.  */}
               {/*               
@@ -221,9 +222,9 @@ const Projects = () => {
             </p>
             <h4 className="project__title">My Solution</h4>
             <p className="project__description">
-              The site I've built is simple and easy to navigate by design. The colors I
-              chose ,dark blue and green, were chosen as they are realtively positive
-              colors that lend themselves towards trust and depndendability, virtues that
+              The site I've built is simple and easy to navigate by design. The colours I
+              chose, dark blue and green, were chosen as they are relatively positive
+              colours that lend themselves towards trust and dependability, virtues that
               seem to be lacking in the crypto world.
             </p>
             <h4 className="project__title">Notable Features</h4>

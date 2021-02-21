@@ -12,6 +12,7 @@ const TechnologiesBar = () => {
         <img src="../img/react-logo.png" alt="React icon" />
         <img src="../img/redux-logo.png" alt="Redux icon" />
         <img src="../img/nodejs-logo.png" alt="NodeJS icon" />
+        <img src="../img/git-logo.png" alt="Git icon" />
         <img src="../img/github-logo.png" alt="Github icon" />
       </div>
     </section>
