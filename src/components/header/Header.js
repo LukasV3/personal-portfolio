@@ -45,7 +45,13 @@ const Header = () => {
           >
             <i className="fab fa-github-square"></i> Github
           </a>
-          <a href="/" className="admin-button">
+          <a
+            onClick={(e) =>
+              goToPage(e, "https://www.linkedin.com/in/lukas-volk-96b249207/")
+            }
+            href="https://www.linkedin.com/in/lukas-volk-96b249207/"
+            className="admin-button"
+          >
             <i className="fab fa-linkedin"></i> LinkedIn
           </a>
           <a

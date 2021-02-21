@@ -22,8 +22,10 @@ const Footer = () => {
           <i className="fab fa-github-square"></i> Github
         </a>
         <a
-          onClick={(e) => goToPage(e, "https://github.com/LukasV3")}
-          href="https://github.com/LukasV3"
+          onClick={(e) =>
+            goToPage(e, "https://www.linkedin.com/in/lukas-volk-96b249207/")
+          }
+          href="https://www.linkedin.com/in/lukas-volk-96b249207/"
           className="admin-button"
         >
           <i className="fab fa-linkedin"></i> LinkedIn
