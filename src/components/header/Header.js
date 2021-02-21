@@ -35,7 +35,7 @@ const Header = () => {
         <h1 className="header__title">Web Developer</h1>
         <h4 className="header__text">
           Hi, my name is Lukas, and I am a self-taught web developer based just outside of
-          London in Essex.
+          London.
         </h4>
         <div className="admin-buttons">
           <a
