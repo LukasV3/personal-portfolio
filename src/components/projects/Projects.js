@@ -48,7 +48,12 @@ const Projects = () => {
               </Carousel>
             </div>
             <div className="project__buttons">
-              <button className="project__button">
+              <button
+                onClick={() =>
+                  window.open("https://silly-stonebraker-764eca.netlify.app")
+                }
+                className="project__button"
+              >
                 <i className="fas fa-desktop"></i> Live Preview
               </button>
               <button
@@ -154,7 +159,10 @@ const Projects = () => {
               </Carousel>
             </div>
             <div className="project__buttons">
-              <button className="project__button">
+              <button
+                onClick={() => window.open("https://elastic-minsky-050ab8.netlify.app")}
+                className="project__button"
+              >
                 <i className="fas fa-desktop"></i> Live Preview
               </button>
               <button
@@ -244,7 +252,7 @@ const Projects = () => {
               </Carousel>
             </div>
             <div className="project__buttons">
-              <button className="project__button">
+              <button className="project__button" disabled>
                 <i className="fas fa-desktop"></i> Live Preview
               </button>
               <button

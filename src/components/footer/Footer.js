@@ -18,9 +18,9 @@ const Footer = () => {
         <button className="admin-button">
           <i className="fas fa-envelope-square"></i> Email
         </button>
-        <button className="admin-button">
-          <i className="far fa-newspaper"></i> Resume
-        </button>
+        {/* <button className="admin-button">
+          <i className="far fa-newspaper"></i> CV
+        </button> */}
       </div>
     </footer>
   );
