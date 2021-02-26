@@ -149,6 +149,112 @@ const Projects = () => {
         </div>
         <div className="projects__line"></div>
 
+        {/* GAME OF THRONES APP */}
+        <div className="project">
+          <div className="project--col-1">
+            <h3 className="project__name">Game of Thrones Interactive Map</h3>
+            <div className="project__image">
+              <Carousel
+                showArrows={true}
+                showThumbs={false}
+                infiniteLoop={true}
+                autoPlay={true}
+              >
+                <img src="../img/got-main.jpeg" alt="app" />
+                <img src="../img/got-highlight.jpeg" alt="app" />
+                <img src="../img/got-search.jpeg" alt="app" />
+                <img src="../img/got-detail.jpeg" alt="app" />
+              </Carousel>
+            </div>
+            <div className="project__buttons">
+              <a
+                onClick={(e) =>
+                  goToPage(e, "https://game-of-thrones-interactive.herokuapp.com/")
+                }
+                href="https://game-of-thrones-interactive.herokuapp.com/"
+                className="project__button"
+              >
+                <i className="fas fa-desktop"></i> Live Preview
+              </a>
+              <a
+                onClick={(e) =>
+                  goToPage(
+                    e,
+                    "https://github.com/LukasV3/game-of-thrones-interactive-map"
+                  )
+                }
+                href="https://github.com/LukasV3/game-of-thrones-interactive-map"
+                className="project__button"
+              >
+                <i className="fas fa-code"></i> Code
+              </a>
+            </div>
+            <h4 className="project__title">Technologies Used</h4>
+            <div className="project__description--grid-1">
+              <p>
+                <i className="fas fa-circle"></i> HTML5
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Sass
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> CSS3
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Leaflet
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> React
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Node.js
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Express
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> MongoDB
+              </p>
+            </div>
+          </div>
+          <div className="project--col-2">
+            <h4 className="project__title">Overview</h4>
+            <p className="project__description">
+              This project is an interactive map based on the popular TV series Game of
+              Thrones built using React, Leaflet, Node.js, and MongoDB.
+            </p>
+            {/* <h4 className="project__title">My Solution</h4>
+            <p className="project__description">
+              The site I've built is simple and easy to navigate by design. The colours I
+              chose, dark blue and green, were chosen as they are relatively positive
+              colours that lend themselves towards trust and dependability, virtues that
+              seem to be lacking in the crypto world.
+            </p> */}
+            <h4 className="project__title">Notable Features</h4>
+            <div className="project__description--grid-2">
+              <p>
+                <i className="fas fa-circle"></i>
+                Users can click on parts of the map to find out more infomation about a
+                particular kingdom.
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Users can search for a kingdom and with
+                the help of <span className="project__text--highlight">fuse.js</span> a
+                fuzzy search the data will be completed to help accomodate for typos.
+              </p>
+              <p>
+                <i className="fas fa-circle"></i>
+                Implemented a<span className="project__text--highlight">
+                  {" "}
+                  debounce
+                </span>{" "}
+                to delay API calls by 0.5s.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="projects__line"></div>
+
         {/* CRYPTOGIC SITE */}
         <div className="project">
           <div className="project--col-1">
@@ -224,8 +330,7 @@ const Projects = () => {
             <p className="project__description">
               The site I've built is simple and easy to navigate by design. The colours I
               chose, dark blue and green, were chosen as they are relatively positive
-              colours that lend themselves towards trust and dependability, virtues that
-              seem to be lacking in the crypto world.
+              colours that lend themselves towards trust and dependability.
             </p>
             <h4 className="project__title">Notable Features</h4>
             <div className="project__description--grid-2">
