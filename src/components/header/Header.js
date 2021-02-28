@@ -60,9 +60,14 @@ const Header = () => {
             <i className="fas fa-envelope-square"></i>
             Email
           </a>
-          {/* <a className="admin-button">
-            <i className="far fa-newspaper"></i> CV
-          </a> */}
+          <a
+            onClick={(e) => goToPage(e, "pdf/lukas-volk-cv.pdf")}
+            href="pdf/lukas-volk-cv.pdf"
+            className="admin-button"
+          >
+            <i className="far fa-newspaper"></i>
+            CV
+          </a>
         </div>
       </div>
     </header>
