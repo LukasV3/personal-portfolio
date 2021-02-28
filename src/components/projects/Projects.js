@@ -204,27 +204,18 @@ const Projects = () => {
             <h4 className="project__title">Overview</h4>
             <p className="project__description">
               Cryptogic is a fictional cryptocurrency marketplace that I have built a
-              landing page for. With the market being extremely volatile and many fears
+              landing page for. With the market being extremely volatile, and many fears
               growing around its potential for hacking, consumers on the whole are still
               sticking with safer alternatives. The goal of this site is to change this
-              misconception.
-              {/* Cryptocurrency investments are currently viewed by the
-              mainstream as being based on speculation.  */}
-              {/*               
-              to build a site that was simple and
-              easy to navigate With it being a relatively new technology and many of the
-              market leaders suffering hacks potential consumers are often scared by its
-              risks which is ultimately preventing its full ascension into mainstream
-              finance. that many consumers struggle to grasp growing fears of hacking and
-              I wanted to build a site that juxtaposes this misconcenption. The site is
-              therefore simple by design and very easy to navigate to help enstil trust
-              with the user. */}
+              misconception by building a landing page that was simple, and easy to
+              navigate by design.
             </p>
             <h4 className="project__title">My Solution</h4>
             <p className="project__description">
-              The site I've built is simple and easy to navigate by design. The colours I
-              chose, dark blue and green, were chosen as they are relatively positive
-              colours that lend themselves towards trust and dependability.
+              The colours I ended up using were dark blue, and green as they are
+              relatively positive colours that lend themselves towards trust, and
+              dependability. I also used bright green to help highlight calls to action on
+              certain elements, such as the sign up, and keep me updated buttons.
             </p>
             <h4 className="project__title">Notable Features</h4>
             <div className="project__description--grid-2">
@@ -285,6 +276,10 @@ const Projects = () => {
                 <i className="fas fa-code"></i> Code
               </a>
             </div>
+            <p className="project__description">
+              * This project is hosted on heroku so it may take up to 20 seconds for the
+              server to start up.
+            </p>
             <h4 className="project__title">Technologies Used</h4>
             <div className="project__description--grid-1">
               <p>
@@ -317,15 +312,12 @@ const Projects = () => {
             <h4 className="project__title">Overview</h4>
             <p className="project__description">
               This project is an interactive map based on the popular TV series Game of
-              Thrones built using React, Leaflet, Node.js, and MongoDB.
+              Thrones. Inspiration for the app came from Patrick Triest's implementation
+              using Webpack, Leaflet, and framework-less Javascript components on the
+              frontend, and Node.js (koa), PostGIS, and Redis on the backend. I have kept
+              much of the styles the same and have focused on implementing the same
+              functionality using entirely different technologies.
             </p>
-            {/* <h4 className="project__title">My Solution</h4>
-            <p className="project__description">
-              The site I've built is simple and easy to navigate by design. The colours I
-              chose, dark blue and green, were chosen as they are relatively positive
-              colours that lend themselves towards trust and dependability, virtues that
-              seem to be lacking in the crypto world.
-            </p> */}
             <h4 className="project__title">Notable Features</h4>
             <div className="project__description--grid-2">
               <p>
