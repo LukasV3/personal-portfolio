@@ -36,6 +36,90 @@ const Projects = () => {
     <section className="projects" id="projects">
       <h3 className="projects__title">Projects</h3>
       <div className="projects__container">
+        {/* Chatroom APP */}
+        <div className="project">
+          <div className="project--col-1">
+            <h3 className="project__name">Chatroom App</h3>
+            <div className="project__image">
+              <Carousel
+                showArrows={true}
+                showThumbs={false}
+                infiniteLoop={true}
+                autoPlay={true}
+              >
+                <img src="../img/chatroom-welcome.jpg" alt="app" />
+                <img src="../img/chatroom-signup.jpg" alt="app" />
+                <img src="../img/chatroom-chat.jpg" alt="app" />
+              </Carousel>
+            </div>
+            <div className="project__buttons">
+              <a
+                onClick={(e) =>
+                  goToPage(e, "https://practical-engelbart-e97075.netlify.app/")
+                }
+                href="https://practical-engelbart-e97075.netlify.app/"
+                className="project__button"
+              >
+                <i className="fas fa-desktop"></i> Live Preview
+              </a>
+              <a
+                onClick={(e) => goToPage(e, "https://github.com/LukasV3/chatroom-app")}
+                href="https://github.com/LukasV3/chatroom-app"
+                className="project__button"
+              >
+                <i className="fas fa-code"></i> Code
+              </a>
+            </div>
+            <p className="project__description">
+              *To login as a guest use the following credentials;
+              <br></br>
+              Email: guest@guest.com
+              <br></br>
+              Password: guestaccount
+            </p>
+
+            <h4 className="project__title">Technologies Used</h4>
+            <div className="project__description--grid-1">
+              <p>
+                <i className="fas fa-circle"></i> HTML5
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Sass
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> CSS3
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> TypeScript
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> React
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> React Router
+              </p>
+              <p>
+                <i className="fas fa-circle"></i> Firebase
+              </p>
+            </div>
+          </div>
+          <div className="project--col-2">
+            <h4 className="project__title">Overview</h4>
+            <p className="project__description">
+              A full-stack chat app where users can create an account and then send
+              messages in the chatroom, which all users can then see and respond to.
+            </p>
+            <h4 className="project__title">Notable Features</h4>
+            <div className="project__description--grid-2">
+              <p>
+                <i className="fas fa-circle"></i>
+                User <span className="project__text--highlight">authentication</span> is
+                handled using firebase with both client, and server-side error handling.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="projects__line"></div>
         {/* MOVIEBASE APP */}
         <div className="project">
           <div className="project--col-1">
