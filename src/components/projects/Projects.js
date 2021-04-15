@@ -116,6 +116,19 @@ const Projects = () => {
                 User <span className="project__text--highlight">authentication</span> is
                 handled using firebase with both client, and server-side error handling.
               </p>
+              <p>
+                <i className="fas fa-circle"></i>
+                Made use of React Router and{" "}
+                <span className="project__text--highlight">higher-order components </span>
+                to create both public and private routes, which are rendered depending on
+                the users authenticated state.
+              </p>
+              <p>
+                <i className="fas fa-circle"></i>
+                The app is entirely{" "}
+                <span className="project__text--highlight">mobile-friendly </span>with the
+                aid of a hamburger menu to help render navbar links on mobile.
+              </p>
             </div>
           </div>
         </div>
@@ -196,7 +209,7 @@ const Projects = () => {
             <h4 className="project__title">Project Difficulties</h4>
             <p className="project__description">
               When I was building out the app making it responsive was somewhat of an
-              afterthought. As a result when the time came to make it mobile friendly it
+              afterthought. As a result when the time came to make it mobile-friendly it
               became very difficult, as many of the styles and much of the logic was
               solely built with larger viewports in mind.
             </p>
